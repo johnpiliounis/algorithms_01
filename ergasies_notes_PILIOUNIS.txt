@@ -1,5 +1,5 @@
 Οι ασκήσεις 3, 6, 7, έγιναν στην python version 3.5.2
-Η άσκηση 5 έγινε σε C++ με τον compiler g++ από 
-command prompt.
+Η άσκηση 5 έγινε και σε python, ενώ αρχικά είχε γίνει 
+σε C++ με τον compiler g++ από command prompt.
 Ό κώδικας γράφτηκε και στον editor της python, 
 αλλά και στο Notepad++
