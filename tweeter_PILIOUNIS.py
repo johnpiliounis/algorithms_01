@@ -12,7 +12,7 @@ access_token = '817813636907409409-TdsmX3zlumVuy9TtIOufWjtZOEDxwxi'
 access_secret = 'cH7TtazqEA5nGYbsTCAXY00h933biAprbJN67BcIHrufB'
 auth = OAuthHandler(consumer_key,consumer_secret )
 auth.set_access_token(access_token, access_secret)
-spiros_api = tweepy.API(auth)
+user_api = tweepy.API(auth)
 
 
 print("Input SCREEN_NAME of 1st TWITTER User:")
@@ -38,7 +38,7 @@ for qtweet in stuff:
 i = 1
 qtweet =[]
 stuff = []
-stuff = spiros_api.user_timeline(screen_name = user2, count = 10, )
+stuff = user_api.user_timeline(screen_name = user2, count = 10, )
 for qtweet in stuff:
     result2 += str(i) + ") " + str(qtweet.created_at) + " *** " + qtweet.text + '\n'    
     i+=1
