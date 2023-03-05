@@ -1,3 +1,4 @@
+# tweeter simple search and compare program
 
 user1 = ''
 user2 = ''
