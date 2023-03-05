@@ -1,4 +1,5 @@
 # somefiles_01
 
-simple problems in python and C++
-Hashard, Lists, Tweeter, 
+simple problems in  
+python and C++ 
+on Hashard, Lists, Tweeter, PROTO-Game algorithms
