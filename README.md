@@ -1,4 +1,4 @@
-# somefiles_01
+# algorithms_01
 
 simple problems in  
 python and C++ 
