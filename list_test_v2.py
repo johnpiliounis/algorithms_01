@@ -1,13 +1,13 @@
-print("DOSTE TO MHKOS THS LISTAS :" )
+print("Input LIST's Length: " )
 list_length=int(input())
 
 mylist=[]
 for t in range(list_length):
-    print("DOSTE TO " + str(t+1) + ") APO TA " + str(list_length) + " STOIXEIA LISTAS :" )
+    print("Input " + str(t+1) + ") From " + str(list_length) + " List Elements :" )
     a=input()
     mylist.append(a)
 
-print("ARXIKH LISTA :" )
+print("Initial List :" )
 print(mylist)
 k=0
 newlist = []
@@ -24,6 +24,6 @@ for j in range(k):
 
 print()
 print()
-print ("TELIKH LISTA :")
+print ("Final List :")
 print (newlist)
 
