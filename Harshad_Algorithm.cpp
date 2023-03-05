@@ -1,4 +1,4 @@
-
+// this is an example of the harshad algorithm
 
 #include <iostream>
 using namespace std;
