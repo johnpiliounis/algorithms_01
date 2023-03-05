@@ -15,16 +15,16 @@ auth.set_access_token(access_token, access_secret)
 spiros_api = tweepy.API(auth)
 
 
-print("DOSTE TO SCREEN_NAME TOY 1ου ΧΡΗΣΤΗ TWITTER:")
-print("1ος ΧΡΗΣΤΗΣ:")
+print("Input SCREEN_NAME of 1st TWITTER User:")
+print("1st User:")
 user1=input()
 print()
 
-print("DOSTE TO SCREEN_NAME TOY 2ου ΧΡΗΣΤΗ TWITTER:")
-print("2ος ΧΡΗΣΤΗΣ:")
+print("Input SCREEN_NAME of 2nd TWITTER User:")
+print("2nd User:")
 user2=input()
 print()
-print(" ****** ΠΑΡΑΚΑΛΩ ΠΕΡΙΜΕΝΕΤΕ. ΑΝΑΣΥΡΩ ΔΕΔΟΜΕΝΑ... ******")
+print(" ****** Please wait. Querying data... ******")
 
 i = 1
 qtweet =[]
@@ -46,22 +46,22 @@ for qtweet in stuff:
 
 print()
 print()
-print(user1 + ": ΠΕΡΙΕΧΕΙ " + str(len(result1.split())) + " ΛΕΞΕΙΣ.")
+print(user1 + ": Contains " + str(len(result1.split())) + " Words.")
 print(result1)    
 print()
 print()
-print(user2 + ": ΠΕΡΙΕΧΕΙ " + str(len(result2.split())) + " ΛΕΞΕΙΣ.")
+print(user2 + ": Contains " + str(len(result2.split())) + " Words.")
 print(result2) 
 
 
 print()
 print()
 if (len(result1.split()) > len(result2.split())):
-    print("O XRHSTHS " + user1 + " ΕΧΕΙ ΠΕΡΙΣΣΟΤΕΡΕΣ ΛΕΞΕΙΣ ΣΤΑ 10 ΤΕΛΕΥΤΑΙΑ TWEETs")
+    print("User " + user1 + " has more words in the last 10 tweets")
 elif (len(result2.split()) > len(result1.split())):
-     print("O XRHSTHS " + user2 + " ΕΧΕΙ ΠΕΡΙΣΣΟΤΕΡΕΣ ΛΕΞΕΙΣ ΣΤΑ 10 ΤΕΛΕΥΤΑΙΑ TWEETs")
+     print("User " + user2 + " has more words in the last 10 tweets")
 else:
-    print("OI XRHSTES " + user1 + ", " + user2 + " ΕΧΟΥΝ ΤΟΝ ΙΔΙΟ ΑΡΙΘΜΟ ΛΕΞΕΩΝ")
+    print("Users " + user1 + ", " + user2 + " have the same number of words")
 
 
     
