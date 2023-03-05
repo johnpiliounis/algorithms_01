@@ -1,4 +1,5 @@
-# BIBLIO8HKH GIA ACCESS URL & WEB SERVICES
+# ACCESS URL & WEB SERVICES Lib
+
 import urllib.request
 
 mylist = []
