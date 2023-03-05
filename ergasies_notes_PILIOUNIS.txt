@@ -1,2 +1,0 @@
-3, 6, 7 in python version 3.5.2
-5 in python & C++
